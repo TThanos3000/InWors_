@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>three.interaction.js API Documentation</title>
+    
+    <meta name="description" content="Documentation for three.interaction.js library" />
+    
+        <meta name="keywords" content="docs, documentation, three.js, three.js event system, three.interaction.js, renderer, html5, javascript, jsdoc" />
+        <meta name="keyword" content="docs, documentation, three.js, three.js event system, three.interaction.js, renderer, html5, javascript, jsdoc" />
+    
+    
+    
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    
+    <meta property="og:url" content=""/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/main.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"default":{"outputSourceFiles":true},"applicationName":"three.interaction.js","footer":"Made with ♥ by JasonChen (github.com/jasonChen1982)","copyright":"three.interaction.js Copyright © 2013-2017 JasonChen.","disqus":"","googleAnalytics":"UA-103772589-5","openGraph":{"title":"","type":"website","image":"","site_name":"","url":""},"meta":{"title":"three.interaction.js API Documentation","description":"Documentation for three.interaction.js library","keyword":"docs, documentation, three.js, three.js event system, three.interaction.js, renderer, html5, javascript, jsdoc"},"linenums":true};
+    </script>
+    
+
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', config.googleAnalytics]);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">three.interaction.js</a></h3>
+    <button id="menuToggle" class="btn btn-link btn-lg menu-toggle">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </button>
+    <div class="search">
+        <input id="search" type="text" class="form-control input-md" placeholder="Search...">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="Utils">
+            <span class="title namespace ">
+                
+                <span class="namespaceTag">
+                    <span class="glyphicon glyphicon-folder-open"></span>
+                </span>
+                
+                <a href="Utils.html">Utils</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent  " data-name="Utils.isFunction"><a href="Utils.html#.isFunction">isFunction</a></li>
+            
+                <li class="parent  " data-name="Utils.isUndefined"><a href="Utils.html#.isUndefined">isUndefined</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Interaction">
+            <span class="title  ">
+                
+                <a href="Interaction.html">Interaction</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class=" " data-name="Interaction#autoPreventDefault"><a href="Interaction.html#autoPreventDefault">autoPreventDefault</a></li>
+            
+                <li class=" " data-name="Interaction#camera"><a href="Interaction.html#camera">camera</a></li>
+            
+                <li class=" " data-name="Interaction#currentCursorMode"><a href="Interaction.html#currentCursorMode">currentCursorMode</a></li>
+            
+                <li class=" " data-name="Interaction#cursorStyles"><a href="Interaction.html#cursorStyles">cursorStyles</a></li>
+            
+                <li class=" " data-name="Interaction#eventData"><a href="Interaction.html#eventData">eventData</a></li>
+            
+                <li class=" " data-name="Interaction#interactionFrequency"><a href="Interaction.html#interactionFrequency">interactionFrequency</a></li>
+            
+                <li class=" " data-name="Interaction#mouse"><a href="Interaction.html#mouse">mouse</a></li>
+            
+                <li class=" " data-name="Interaction#moveWhenInside"><a href="Interaction.html#moveWhenInside">moveWhenInside</a></li>
+            
+                <li class=" " data-name="Interaction#renderer"><a href="Interaction.html#renderer">renderer</a></li>
+            
+                <li class=" " data-name="Interaction#scene"><a href="Interaction.html#scene">scene</a></li>
+            
+                <li class=" " data-name="Interaction#supportsPointerEvents"><a href="Interaction.html#supportsPointerEvents">supportsPointerEvents</a></li>
+            
+                <li class=" " data-name="Interaction#supportsTouchEvents"><a href="Interaction.html#supportsTouchEvents">supportsTouchEvents</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="  " data-name="Interaction#destroy"><a href="Interaction.html#destroy">destroy</a></li>
+            
+                <li class="  " data-name="Interaction#emit"><a href="Interaction.html#emit">emit</a></li>
+            
+                <li class="  " data-name="Interaction#hitTest"><a href="Interaction.html#hitTest">hitTest</a></li>
+            
+                <li class="  " data-name="Interaction#mapPositionToPoint"><a href="Interaction.html#mapPositionToPoint">mapPositionToPoint</a></li>
+            
+                <li class="  " data-name="Interaction#off"><a href="Interaction.html#off">off</a></li>
+            
+                <li class="  " data-name="Interaction#on"><a href="Interaction.html#on">on</a></li>
+            
+                <li class="  " data-name="Interaction#once"><a href="Interaction.html#once">once</a></li>
+            
+                <li class="  " data-name="Interaction#setCursorMode"><a href="Interaction.html#setCursorMode">setCursorMode</a></li>
+            
+                <li class="  " data-name="Interaction#setTargetElement"><a href="Interaction.html#setTargetElement">setTargetElement</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="InteractionData">
+            <span class="title  ">
+                
+                <a href="InteractionData.html">InteractionData</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="InteractionData#button"><a href="InteractionData.html#button">button</a></li>
+            
+                <li class="parent " data-name="InteractionData#buttons"><a href="InteractionData.html#buttons">buttons</a></li>
+            
+                <li class="parent " data-name="InteractionData#global"><a href="InteractionData.html#global">global</a></li>
+            
+                <li class="parent " data-name="InteractionData#height"><a href="InteractionData.html#height">height</a></li>
+            
+                <li class="parent " data-name="InteractionData#identifier"><a href="InteractionData.html#identifier">identifier</a></li>
+            
+                <li class="parent " data-name="InteractionData#isPrimary"><a href="InteractionData.html#isPrimary">isPrimary</a></li>
+            
+                <li class="parent " data-name="InteractionData#originalEvent"><a href="InteractionData.html#originalEvent">originalEvent</a></li>
+            
+                <li class="parent " data-name="InteractionData#pointerId"><a href="InteractionData.html#pointerId">pointerId</a></li>
+            
+                <li class="parent " data-name="InteractionData#pointerType"><a href="InteractionData.html#pointerType">pointerType</a></li>
+            
+                <li class="parent " data-name="InteractionData#pressure"><a href="InteractionData.html#pressure">pressure</a></li>
+            
+                <li class="parent " data-name="InteractionData#rotationAngle"><a href="InteractionData.html#rotationAngle">rotationAngle</a></li>
+            
+                <li class="parent " data-name="InteractionData#tangentialPressure"><a href="InteractionData.html#tangentialPressure">tangentialPressure</a></li>
+            
+                <li class="parent " data-name="InteractionData#target"><a href="InteractionData.html#target">target</a></li>
+            
+                <li class="parent " data-name="InteractionData#tiltX"><a href="InteractionData.html#tiltX">tiltX</a></li>
+            
+                <li class="parent " data-name="InteractionData#tiltY"><a href="InteractionData.html#tiltY">tiltY</a></li>
+            
+                <li class="parent " data-name="InteractionData#twist"><a href="InteractionData.html#twist">twist</a></li>
+            
+                <li class="parent " data-name="InteractionData#width"><a href="InteractionData.html#width">width</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="InteractionEvent">
+            <span class="title  ">
+                
+                <a href="InteractionEvent.html">InteractionEvent</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="InteractionEvent#currentTarget"><a href="InteractionEvent.html#currentTarget">currentTarget</a></li>
+            
+                <li class="parent " data-name="InteractionEvent#data"><a href="InteractionEvent.html#data">data</a></li>
+            
+                <li class="parent " data-name="InteractionEvent#intersects"><a href="InteractionEvent.html#intersects">intersects</a></li>
+            
+                <li class="parent " data-name="InteractionEvent#stopped"><a href="InteractionEvent.html#stopped">stopped</a></li>
+            
+                <li class="parent " data-name="InteractionEvent#target"><a href="InteractionEvent.html#target">target</a></li>
+            
+                <li class="parent " data-name="InteractionEvent#type"><a href="InteractionEvent.html#type">type</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent  " data-name="InteractionEvent#stopPropagation"><a href="InteractionEvent.html#stopPropagation">stopPropagation</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Ticker">
+            <span class="title  ">
+                
+                <a href="Ticker.html">Ticker</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="  " data-name="Ticker#emit"><a href="Ticker.html#emit">emit</a></li>
+            
+                <li class="  " data-name="Ticker#off"><a href="Ticker.html#off">off</a></li>
+            
+                <li class="  " data-name="Ticker#on"><a href="Ticker.html#on">on</a></li>
+            
+                <li class="  " data-name="Ticker#once"><a href="Ticker.html#once">once</a></li>
+            
+                <li class="parent  " data-name="Ticker#start"><a href="Ticker.html#start">start</a></li>
+            
+                <li class="parent  " data-name="Ticker#stop"><a href="Ticker.html#stop">stop</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="interaction_Interaction.js.html">Source: interaction/Interaction.js</h1>
+        
+
+
+    
+    <section>
+        <header>
+            <div class="header content-size">
+                <h2>interaction/Interaction.js</h2>
+            </div>
+        </header>
+        <article>
+            <pre id="source-code" class="prettyprint source linenums"><code>import Ticker from '../utils/Ticker';
+import InteractionManager from './InteractionManager';
+
+/**
+ * The interaction manager deals with mouse, touch and pointer events. Any DisplayObject can be interactive
+ * if its interactive parameter is set to true
+ * This manager also supports multitouch.
+ *
+ * reference to [pixi.js](http://www.pixijs.com/) impl
+ *
+ * @example
+ * import { Scene, PerspectiveCamera, WebGLRenderer, Mesh, BoxGeometry, MeshBasicMaterial } from 'three';
+ * import { Interaction } from 'three.interaction';
+ * const renderer = new WebGLRenderer({ canvas: canvasElement });
+ * const scene = new Scene();
+ * const camera = new PerspectiveCamera(60, width / height, 0.1, 100);
+ *
+ * const interaction = new Interaction(renderer, scene, camera);
+ * // then you can bind every interaction event with any mesh which you had `add` into `scene` before
+ * const cube = new Mesh(
+ *   new BoxGeometry(1, 1, 1),
+ *   new MeshBasicMaterial({ color: 0xffffff }),
+ * );
+ * scene.add(cube);
+ * cube.on('touchstart', ev => {
+ *   console.log(ev);
+ * });
+ *
+ * cube.on('mousedown', ev => {
+ *   console.log(ev);
+ * });
+ *
+ * cube.on('pointerdown', ev => {
+ *   console.log(ev);
+ * });
+ * // and so on ...
+ *
+ * // you can also listen on parent-node or any display-tree node,
+ * // source event will bubble up along with display-tree.
+ * // you can stop the bubble-up by invoke ev.stopPropagation function.
+ * scene.on('touchstart', ev => {
+ *   console.log(ev);
+ * })
+ *
+ * @class
+ * @extends InteractionManager
+ */
+class Interaction extends InteractionManager {
+  /**
+   * @param {WebGLRenderer} renderer - A reference to the current renderer
+   * @param {Scene} scene - A reference to the current scene
+   * @param {Camera} camera - A reference to the current camera
+   * @param {Object} [options] - The options for the manager.
+   * @param {Boolean} [options.autoPreventDefault=false] - Should the manager automatically prevent default browser actions.
+   * @param {Boolean} [options.autoAttach=false] - Should the manager automatically attach target element.
+   * @param {Number} [options.interactionFrequency=10] - Frequency increases the interaction events will be checked.
+   */
+  constructor(renderer, scene, camera, options) {
+    options = Object.assign({ autoAttach: false }, options);
+    super(renderer, scene, camera, options);
+
+    /**
+     * a ticker
+     *
+     * @private
+     * @member {Ticker}
+     */
+    this.ticker = new Ticker();
+
+    /**
+     * update for some over event
+     *
+     * @private
+     */
+    this.update = this.update.bind(this);
+
+    this.on('addevents', () => {
+      this.ticker.on('tick', this.update);
+    });
+
+    this.on('removeevents', () => {
+      this.ticker.off('tick', this.update);
+    });
+
+    this.setTargetElement(this.renderer.domElement);
+  }
+}
+
+export default Interaction;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+
+
+        
+
+        <footer class="content-size">
+            <div class="footer">
+                Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Fri Jul 24 2020 12:41:11 GMT+0800 (GMT+08:00)
+            </div>
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
