@@ -396,7 +396,6 @@ document.querySelector('#check_input').onclick = function(){
 document.querySelector('#to_3d').onclick = function(){
         callback_drawline()  // вызываем функцию, отрисовки в 3d
          
-        
 
         function callback_drawline(){
           let i = 0;
@@ -665,18 +664,6 @@ document.querySelector('#INFO_').onclick = function(){
 
 //Загрузка сцены
 document.querySelector('.load_scene').onclick = function(){
-  /*loader.load(img_in_plane,function(glb){
-    console.log(glb)
-    const root = glb.scene;
-    scene.add(root);
-  }, function(xhr){
-    console.log((xhr.loaded/xhr.total * 100) + '% loaded')
-  },function(error){
-    console.log('ERROR no today, bro')
-  })*/
-
-
-  
   loader_js.load(
     // resource URL
     "./s.json",
@@ -697,6 +684,7 @@ document.querySelector('.load_scene').onclick = function(){
       console.error( 'An error happened' );
     }
   );
+
 }
 
 
@@ -716,6 +704,5 @@ document.querySelector('.load_scene').onclick = function(){
   4) сделать выбор материала - соответственно отрисовка стены идет по этому материалу
   5) отфиксить баги с приближением
   6) доделать INFO
-  
 
 */ 
